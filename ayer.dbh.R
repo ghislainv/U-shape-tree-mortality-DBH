@@ -718,7 +718,7 @@ Stop <- length(Mat.Range.dbh$dbh.class)
 cat("\nPlot graphic...")  
     
 test.dbh0 <- seq(from=dbh.min,to=dbh.max,by=init.bin)
-pdf(file="deviance-dbh0.pdf")
+png(file="deviance-dbh0.png")
 par(cex=1.4)
 plot(test.dbh0,Deviance,
     type="l",
@@ -897,7 +897,7 @@ for (i in 1:nbin) {
 l <- as.numeric(gsub("\\[","",mat$BeginClass))
 u <- as.numeric(gsub(")","",mat$EndClass))
 
-pdf("mortality-dbh.pdf")
+png("mortality-dbh.png")
 par(mar=c(5,4,3,2),cex=1.4)
 # barplot for MLE
 x.at <- barplot(height=mat$theta.MLE,width=c(u-l),

@@ -31,7 +31,7 @@ model.dbh.comp <- ayer.dbh.comp(mort=as.numeric(dat$mort),dbh=dat$dbh,comp=dat$b
                                 init.bin.comp=10000)
 
 model.dbh.comp$deviance
-pdf("mortality-dbh-comp.pdf")
+png("mortality-dbh-comp.png")
 image(z=as.matrix(model.dbh.comp$model),col=gray((20:1)/32),
       x=seq(from=5.5,to=117.5,by=5),
       y=seq(from=0.5e+04,to=1.05e+05,by=1e+04),

@@ -6,6 +6,6 @@ References:
 
 *Vieilledent G., Courbaud B., Kunstler G., Dhôte J.-F., and Clark J. S.* 2009. Biases in the estimation of size dependent mortality models: advantages of a semi-parametric approach. /Canadian Journal of Forest Research/. *39* (8): 1430–1443. doi:[[https://doi.org/10.1139/X09-047][10.1139/X09-047]].
 
-*Vieilledent G., Courbaud B., Kunstler G., and Dhôte J.-F.* 2010. Mortality of silver Fir and Norway Spruce in the Western Alps – A semi-parametric approach combining size-dependent and growth-dependent mortality. /Annals of Forest Science/. *67* (3): 305. doi:[[https://doi.org/10.1051/forest/2009112][10.1051/forest/2009112].
+*Vieilledent G., Courbaud B., Kunstler G., and Dhôte J.-F.* 2010. Mortality of silver Fir and Norway Spruce in the Western Alps – A semi-parametric approach combining size-dependent and growth-dependent mortality. /Annals of Forest Science/. *67* (3): 305. doi:[[https://doi.org/10.1051/forest/2009112][10.1051/forest/2009112]].
 
-[[file:mortality-dbh.pdf]]
+[[file:mortality-dbh.png]]
